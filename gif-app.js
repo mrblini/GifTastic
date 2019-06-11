@@ -25,7 +25,7 @@ createButtons();
 
 
 // ---------------------------------- DISPLAY GIFS:
-$(".tvshow-btn").on("click", function () {
+$(document).on("click", ".tvshow-btn",function () {
 
     // for this example, the "this" keyword refers to the button that was clicked
     var tvShow = $(this).attr("data-tvshow");
@@ -97,7 +97,10 @@ $(".tvshow-btn").on("click", function () {
 
 $("#add-tvshow").on("click",function(e){
     e.preventDefault();
-    
+    var newButton = $("#tvshow-input").val()
+    console.log(newButton);
+    tvShows.push(newButton);
+    createButtons();    
 })
 
 
