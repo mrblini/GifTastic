@@ -11,10 +11,27 @@ body {
 
 #gifsDiv {
     float: left;
+    width: 70vw;
     background: rgb(143, 143, 143);
 }
 
 #searchDiv {
     float: left;
     background: rgb(143, 143, 143);
+}
+
+.gifs-possition {
+    display: flex;
+    flex: wrap;
+    size: 5px;
+    background: blue;
+    /* float: left; */
+}
+
+.rating-possition {
+    /* display: flex; */
+    /* flex: wrap; */
+    background: rgb(175, 175, 175);
+    display: inline;
+    /* display: inline; */
 }
