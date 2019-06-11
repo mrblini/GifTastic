@@ -1,0 +1,20 @@
+
+body {
+    background: grey;
+    padding: 2%;
+}
+
+#buttonsDiv {
+    margin-bottom: 4%;
+    background: rgb(143, 143, 143);
+}
+
+#gifsDiv {
+    float: left;
+    background: rgb(143, 143, 143);
+}
+
+#searchDiv {
+    float: left;
+    background: rgb(143, 143, 143);
+}
